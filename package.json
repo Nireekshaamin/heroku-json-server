@@ -4,7 +4,8 @@
   "description": "heroku-json-server",
   "main": "server.js",
   "scripts": {
-    "test": "npm run server"
+    "test": "npm run server",
+    "start": "node server.js"
   },
   "keywords": [
     "json-server-heroku-deploy"
@@ -13,5 +14,14 @@
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nireekshaamin/heroku-json-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nireekshaamin/heroku-json-server/issues"
+  },
+  "homepage": "https://github.com/Nireekshaamin/heroku-json-server#readme"
 }
